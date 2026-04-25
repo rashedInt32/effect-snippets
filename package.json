@@ -1,0 +1,28 @@
+{
+  "name": "effect-snippets",
+  "version": "0.1.0",
+  "description": "VSCode-format snippet pack for the Effect TypeScript ecosystem (Effect, Schema, Layer, Stream, Match). Loads in any editor that supports friendly-snippets-style packages.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashedInt32/effect-snippets.git"
+  },
+  "keywords": [
+    "snippets",
+    "effect",
+    "effect-ts",
+    "typescript",
+    "neovim",
+    "luasnip",
+    "blink-cmp",
+    "nvim-cmp",
+    "friendly-snippets",
+    "vscode"
+  ],
+  "contributes": {
+    "snippets": [
+      { "language": "typescript", "path": "./snippets/effect.json" },
+      { "language": "typescriptreact", "path": "./snippets/effect.json" }
+    ]
+  }
+}
